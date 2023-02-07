@@ -28,6 +28,9 @@ const Nav: React.FC<NavProps> = ({ openSidebar, isSidebarOpen }): React.ReactEle
         <NavLink className="nav-link" to="/register">
           2022
         </NavLink>
+        <NavLink className="nav-link" to={{ pathname: "http://eepurl.com/ikeo6z" }} target="_blank">
+          Mailing List
+        </NavLink>
       </div>
       <div className={`sidebar-toggle ${isSidebarOpen ? "open" : "closed"}`} onClick={openSidebar}>
         <i className="fas fa-bars"></i>
