@@ -6,6 +6,17 @@ then
   exit 1
 fi
 
+mkdir build
+cd build
+git init && git remote add origin git@github.com:ritsec/ists-website.git
+git pull origin main
+mv .git ../build-git
+cd ..
 yarn build
-git add build && git commit -m $1
-git subtree push --prefix build origin gh-pages
+mv build-git ./build/.git
+cd build
+git add .
+git commit -m $1
+git push origin main
+cd ..
+rm -rf build
