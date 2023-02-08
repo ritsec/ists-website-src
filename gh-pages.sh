@@ -16,7 +16,7 @@ yarn build
 mv build-git ./build/.git
 cd build
 git add .
-git commit -m $1
+git commit -m "$1"
 git push origin main
 cd ..
 rm -rf build
