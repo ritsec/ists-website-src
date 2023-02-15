@@ -12,6 +12,10 @@ git init && git remote add origin git@github.com:ritsec/ists-website.git
 git pull origin main
 mv .git ../build-git
 cd ..
+if command -v nvm &> /dev/null
+then
+  nvm use
+fi
 yarn build
 mv build-git ./build/.git
 cd build
