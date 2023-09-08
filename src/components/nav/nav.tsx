@@ -13,7 +13,7 @@ const Nav: React.FC<NavProps> = ({ openSidebar, isSidebarOpen }): React.ReactEle
   return (
     <nav className="nav">
       <NavLink className="logo-link" to="/">
-        <img src={logo} className="logo" />
+        <img src={logo} className="logo" alt="RITSEC Lock Logo" />
       </NavLink>
       <div className="links">
         <NavLink className="nav-link" to="/">
@@ -26,7 +26,7 @@ const Nav: React.FC<NavProps> = ({ openSidebar, isSidebarOpen }): React.ReactEle
           Resources
         </NavLink>
         <NavLink className="nav-link" to="/register">
-          2023
+          2024
         </NavLink>
         <NavLink className="nav-link" to={{ pathname: "http://eepurl.com/ikeo6z" }} target="_blank">
           Mailing List
