@@ -1,13 +1,27 @@
-# ISTS Website
+# React + TypeScript + Vite
 
-This is the website for the Information Security Talent Search (ISTS) Competition.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built with [ReactJS](https://reactjs.org/) and [Create React App](https://github.com/facebook/create-react-app), please use `yarn` (**not `npm`**) as this project was originally built with yarn.
+Currently, two official plugins are available:
 
-## Deployment
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-To deploy the site, please simply execute `./gh-pages.sh "<COMMIT MESSAGE>"`. This will push the compiled site to the [ists-website](https://github.com/ritsec/ists-website) repository.
+## Expanding the ESLint configuration
 
-## Contributors
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- [BradHacker](https://github.com/BradHacker)
+- Configure the top-level `parserOptions` property like this:
+
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
+
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
