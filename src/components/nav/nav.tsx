@@ -26,7 +26,7 @@ const Nav: React.FC<NavProps> = ({ openSidebar, isSidebarOpen }): React.ReactEle
           Resources
         </NavLink>
         <NavLink className="nav-link" to="/register">
-          2024
+          2025
         </NavLink>
         <NavLink className="nav-link" to={{ pathname: "http://eepurl.com/ikeo6z" }} target="_blank">
           Mailing List
