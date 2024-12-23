@@ -15,8 +15,8 @@ const Register: React.FC = (): React.ReactElement => {
       </div>
       <div>
         <h2>Signups</h2>
-        <a href="https://forms.gle/DtbRPdpPQYYMNhxi7" target="_blank" rel="noreferrer">
-          Interest Form
+        <a href="https://forms.gle/n25Y2HkSWHP14G3V7" target="_blank" rel="noreferrer">
+          2026 Interest Form
         </a>
       </div>
     </div>
