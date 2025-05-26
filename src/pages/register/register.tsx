@@ -10,8 +10,8 @@ const Register: React.FC = (): React.ReactElement => {
       style={{ backgroundImage: `linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url(${HeroBg})` }}
     >
       <div className="info">
-        <h1>ISTS 2025</h1>
-        <h3>February 28th - March 2nd 2025 @ RIT</h3>
+        <h1>ISTS 2026</h1>
+        <h3>February 27th - March 1st 2026 @ RIT</h3>
       </div>
       <div>
         <h2>Signups</h2>
