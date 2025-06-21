@@ -17,7 +17,7 @@ const About: React.FC = (): React.ReactElement => {
           <h2>Overview</h2>
           Each spring, ISTS brings together eighteen collegiate teams from across the country for a hands-on, student-built 
           cybersecurity competition to test a wide range of skills. Selected universities send teams of five students, and RIT 
-          completes the roster with the winners of our internal red vs. blue competition, {" "}<a href="https://irsec.club" target="_blank" rel="noreferrer">IRSeC</a>{" "}. 
+          completes the roster with the winners of our internal red vs. blue competition, <a href="https://irsec.club" target="_blank" rel="noreferrer">IRSeC</a>. 
           Over the course of the competition, teams face a barrage of technical challenges that test their skills in system hardening, 
           incident response, technical writing, and more. The competition is designed to be a fun and educational experience, 
           allowing students to apply their knowledge while also learning from their peers and industry professionals.
