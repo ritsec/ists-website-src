@@ -12,8 +12,8 @@ const Home: React.FC = (): React.ReactElement => {
       >
         <h1>ISTS</h1>
         <h3>
-          RITSEC's Information Security Talent Search (ISTS) competition is an annual three-day cyber attack/defend competition hosted at
-          the Rochester Institute of Technology by RITSEC.
+          The Information Security Talent Search (ISTS) competition is an annual, invite-only, three-day 
+          cyber attack/defend competition hosted by RITSEC at the Rochester Institute of Technology.
         </h3>
       </div>
     </div>
