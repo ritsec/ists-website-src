@@ -21,7 +21,7 @@ const About: React.FC = (): React.ReactElement => {
           Over the course of the competition, teams face a barrage of technical challenges that test their skills in system hardening, 
           incident response, technical writing, and more. The competition is designed to be a fun and educational experience, 
           allowing students to apply their knowledge while also learning from their peers and industry professionals.
-          <br>
+          <br></br>
           ISTS is designed and driven entirely by students from RITSEC, the student-run cybersecurity club at the Rochester Institute of Technology. 
           From planning and scheduling, to infrastructure deployment and challenge development, every aspect of the competition is built from the ground up by RITSEC club members.
         </div>
@@ -32,7 +32,7 @@ const About: React.FC = (): React.ReactElement => {
           race to take and hold control of specific vulnerable systems. Additionally, a capture-the-flag (CTF) is open throughout the 
           weekend for an extra layer of challenges. Finally, ISTS features “The Game,” a theme-specific minigame that changes year to 
           year. These fast-paced elements come together to let competitors demonstrate their full range of skills; there's never a dull moment.
-          <br>
+          <br></br>
           The competition is supported by multiple student-led roles. The black team is responsible for building and managing the technical 
           environment that powers the event. The white team supports day-of competition logistics and acts as the bridge between blue teams 
           and the black team. Meanwhile, the red team, composed of RITSEC alumni and other industry professionals, delivers offensive pressure 
