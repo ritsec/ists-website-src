@@ -5,8 +5,10 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Nav from "./components/nav/nav";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
-import Resources from "./pages/resources/resources";
+// import Resources from "./pages/resources/resources";
 import Register from "./pages/register/register";
+import Gallery from "./pages/gallery/gallery";
+// import RedTeam from "./pages/red-team/red-team";
 
 import "./App.scss";
 import Sidebar from "./components/sidebar/sidebar";
@@ -32,8 +34,10 @@ const App: React.FC = (): React.ReactElement => {
         <CSSTransition timeout={300} classNames="fade" key={location.key}>
           <Switch>
             <Route path="/about" component={About} />
-            <Route path="/resources" component={Resources} />
+            {/* <Route path="/resources" component={Resources} /> */}
             <Route path="/register" component={Register} />
+            <Route path="/gallery" component={Gallery} />
+            {/* <Route path="/red-team" component={RedTeam} /> */}
             <Route path="/" component={Home} />
           </Switch>
         </CSSTransition>

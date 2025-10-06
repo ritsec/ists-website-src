@@ -17,15 +17,21 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }): React.ReactElement => {
         <NavLink className="nav-link" to="/about">
           About
         </NavLink>
-        <NavLink className="nav-link" to="/resources">
+        {/* <NavLink className="nav-link" to="/resources">
           Resources
-        </NavLink>
+        </NavLink> */}
         <NavLink className="nav-link" to="/register">
           2026
         </NavLink>
         <NavLink className="nav-link" to={{ pathname: "http://eepurl.com/ikeo6z" }} target="_blank">
           Mailing List
         </NavLink>
+        <NavLink className="nav-link" to="/gallery">
+          Gallery
+        </NavLink>
+        {/* <NavLink className="nav-link" to="/red-team">
+          Red Team
+        </NavLink> */}
       </div>
     </div>
   );
