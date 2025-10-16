@@ -8,7 +8,7 @@ import About from "./pages/about/about";
 // import Resources from "./pages/resources/resources";
 import Register from "./pages/register/register";
 import Gallery from "./pages/gallery/gallery";
-import RedTeam from "./pages/red-team/red-team";
+// import RedTeam from "./pages/red-team/red-team";
 
 import "./App.scss";
 import Sidebar from "./components/sidebar/sidebar";
