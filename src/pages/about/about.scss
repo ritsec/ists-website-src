@@ -1,3 +1,9 @@
+.about-container {
+  background-image: linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("../../res/diagonal-lines.svg");
+  background-size: 1%;
+  background-attachment: fixed;
+}
+
 .content {
   flex-direction: column;
   .card {
