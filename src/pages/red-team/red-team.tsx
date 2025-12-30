@@ -9,12 +9,14 @@ import JoeImg from "../../res/rt-images/IMG_2307.jpeg";
 import Wumb0Img from "../../res/rt-images/ankle-cheese-pls-wumbo-belt-so-i-can-make-sosigs-wumbo-v0-2caodxk4sjzd1~2.jpeg";
 import MarshallImg from "../../res/rt-images/me_ists_2022_cropped.jpg";
 import HultoImg from "../../res/rt-images/Hulto_reads.jpg";
+import DrewImg from "../../res/rt-images/Young_Drew.jpg";
+import MubixImg from "../../res/rt-images/mubix.png";
 import PlaceholderImg from "../../res/rt-images/hacker_6017148.png";
 
 const redteamers = [
   {
     name: "Hulto",
-    tenure: "2021 - 2024",
+    tenure: "2021 - Present",
     bio: "Hulto is an RIT alumn and was the competition architect for ISTS 2020. Now he volunteers as the red team captain. Professionally, hulto has done various offensive security roles and now works as a Security Architect at Target. Outside of work he enjoys working on the Realm c2 project and powerlifting.",
     img: HultoImg,
     socials: {
@@ -22,19 +24,19 @@ const redteamers = [
     },
   },
   {
-    name: "Joe Abbate",
-    tenure: "2025 - 2026",
-    bio: "Joe is a Security Engineer at Meta and the router lead for the ISTS Red Team. Known for being the first Red Team member to execute in VR, he is also a Realm contributor and Rust enjoyer.",
-    img: JoeImg,
+    name: "Rob Fuller (mubix)",
+    tenure: "2010 - Present",
+    bio: "Rob Fuller, known in the cybersecurity community as “mubix,” is a seasoned security leader and engineer with over 20 years of experience across Fortune 10 enterprises, startups, and U.S. government networks. Currently serving as VP in Cybersecurity at McKesson, he leads teams focused on offensive security, vulnerability management, and enterprise hardening. Rob began his career defending and designing networks for the U.S. Marine Corps, U.S. Senate, and Pentagon before moving into Red Team leadership roles across multiple global organizations. A long-time volunteer and mentor, he has been involved with the Collegiate Cyber Defense Competition (CCDC) since 2008—first as a red teamer, then red team captain, and later as CTO of the Mid-Atlantic Region. His technical focus centers on Windows and Active Directory security, complemented by strong skills in Linux and networking. He’s also co-founder of NoVA Hackers, a frequent conference speaker, and served as a technical advisor for HBO’s Silicon Valley.",
+    img: MubixImg,
     socials: {
-      website: "joeabbate.me",
-      discord: "SkyzSoldier",
-      github: "https://github.com/jabbate19",
-    },
+      linkedin: "https://linkedin.com/in/mubix",
+      xtwitter: "https://x.com/mubix",
+      github: "https://github.com/mubix",
+    }
   },
   {
     name: "wumb0",
-    tenure: "2017 – 2026",
+    tenure: "2017 – Present",
     bio: "RIT alum, ex RC3 president, CCDC nationals red team, Windows evil-doer, Rust enthusiast, python hater. Talk to me about Rust or literally anything besides computers. Have fun inside! ",
     img: Wumb0Img,
     socials: {
@@ -53,22 +55,34 @@ const redteamers = [
   },
     {
     name: "Sean",
+    tenure: "2023 - Present",
     bio: "Red Teaming on Windows & doing Malware professionally and at CCDC for 10+ years. I'll tell you anything you want to know - but be careful - I'll talk your ear off. Hacker@microsoft.com",
     img: PlaceholderImg
+  },
+  {
+    name: "Joe Abbate",
+    tenure: "2025 - Present",
+    bio: "Joe is a Security Engineer at Meta and the router lead for the ISTS Red Team. Known for being the first Red Team member to execute in VR, he is also a Realm contributor and Rust enjoyer.",
+    img: JoeImg,
+    socials: {
+      website: "joeabbate.me",
+      discord: "SkyzSoldier",
+      github: "https://github.com/jabbate19",
+    },
   },
   {
     name : "Nikolas",
     tenure: "2025 - Present",
     bio: "I hold both a Bachelor and Master of Science in Aerospace Engineering and have worked in the information security industry since around 2019, having performed security assessments for several years prior. I specialize in network penetration testing and red team engagements, Active Directory exploitation, adversary emulation, Windows endpoint exploitation, and malware development, and I volunteer as a red teamer for CCDC and ISTS.",
+    img: PlaceholderImg,
   },
   {
-    name: "Rob Fuller (mubix)",
-    tenure: "2010 - present",
-    bio: "Rob Fuller, known in the cybersecurity community as “mubix,” is a seasoned security leader and engineer with over 20 years of experience across Fortune 10 enterprises, startups, and U.S. government networks. Currently serving as VP in Cybersecurity at McKesson, he leads teams focused on offensive security, vulnerability management, and enterprise hardening. Rob began his career defending and designing networks for the U.S. Marine Corps, U.S. Senate, and Pentagon before moving into Red Team leadership roles across multiple global organizations. A long-time volunteer and mentor, he has been involved with the Collegiate Cyber Defense Competition (CCDC) since 2008—first as a red teamer, then red team captain, and later as CTO of the Mid-Atlantic Region. His technical focus centers on Windows and Active Directory security, complemented by strong skills in Linux and networking. He’s also co-founder of NoVA Hackers, a frequent conference speaker, and served as a technical advisor for HBO’s Silicon Valley.",
+    name: "Drew Young",
+    tenure: "2026 - Present",
+    bio: "Drew is a member of the Advisory Red Team at Security Risk Advisors, where he focuses on offensive security assessments and adversary emulation. Before joining SRA, he served as the Red Team Chief for RITSEC, leading the team during competitions and mentoring newer members in offensive operations. Drew also competed in the Collegiate Cyber Defense Competition (CCDC) and served as the Competition Architect for the Information Security Talent Search (ISTS) in 2024. He has a strong background in Linux, networking, and red team tooling, and enjoys developing creative attack paths to challenge and strengthen blue teams.",
+    img: DrewImg,
     socials: {
-      linkedin: "https://linkedin.com/in/mubix",
-      xtwitter: "https://x.com/mubix",
-      github: "https://github.com/mubix",
+      linkedin: "https://www.linkedin.com/in/drew-m-young",
     }
   }
   ];
