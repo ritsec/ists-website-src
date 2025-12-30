@@ -1,7 +1,7 @@
 import React from "react";
 import "./red-team.scss";
 import HeroBg from "../../res/diagonal-lines.svg";
-import { FaGithub, FaDiscord } from "react-icons/fa";
+import { FaGithub, FaDiscord, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { CgWebsite } from "react-icons/cg";
 
@@ -119,6 +119,12 @@ const RedTeam: React.FC = () => {
                   {person.socials?.github && (
                     <a href={person.socials.github} target="_blank" rel="noopener noreferrer">
                       <FaGithub size={20} />
+                    </a>
+                  )}
+                  {person.socials?.linkedin && (
+                    <a
+                      href={`${person.socials.linkedin}`} target="_blank" rel="noopener noreferrer">
+                      <FaLinkedin size={20} />
                     </a>
                   )}
                   {person.socials?.discord && (
