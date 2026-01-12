@@ -34,9 +34,9 @@ const Nav: React.FC<NavProps> = ({ openSidebar, isSidebarOpen }): React.ReactEle
         <NavLink className="nav-link" to="/gallery">
           Gallery
         </NavLink>
-        {/* <NavLink className="nav-link" to="/red-team">
+        {<NavLink className="nav-link" to="/red-team">
           Red Team
-        </NavLink> */}
+        </NavLink>}
       </div>
       <div className={`sidebar-toggle ${isSidebarOpen ? "open" : "closed"}`} onClick={openSidebar}>
         <i className="fas fa-bars"></i>
