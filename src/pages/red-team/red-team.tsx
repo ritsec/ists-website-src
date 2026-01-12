@@ -1,6 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
 import "./red-team.scss";
-import HeroBg from "../../res/diagonal-lines.svg";
 import { FaGithub, FaDiscord, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { CgWebsite } from "react-icons/cg";
@@ -88,11 +87,11 @@ const redteamers = [
   ];
 
 const RedTeam: React.FC = () => {
+  const [activePerson, setActivePerson] = useState<null | typeof redteamers[number]>(null);
   return (
     <div className="red-team">
       <div
         className="hero mini-hero"
-        style={{ backgroundImage: `linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url(${HeroBg})` }}
       >
         <h1>Meet the Red Team</h1>
       </div>
@@ -107,9 +106,40 @@ const RedTeam: React.FC = () => {
                 className="photo"
               />
               <div className="info">
-                <h3>{person.name}</h3>
+
+                <div className="title">
+                  <h3>{person.name}</h3>
+                </div>
+
                 {person.tenure && <p className="tenure">{person.tenure}</p>}
-                {person.bio && <p className="bio">{person.bio}</p>}
+
+                {person.bio && (
+                    <p className="bio">
+                      {person.bio.length > 180
+                          ? (
+                              <>
+                                {person.bio.slice(0, 180)}…
+                                <span
+                                    className="read-more-inline"
+                                    onClick={() => setActivePerson(person)}
+                                    role="button"
+                                    tabIndex={0}
+                                    aria-label={`Read full bio for ${person.name}`}
+                                    onKeyDown={(e) => {
+                                      if (e.key === "Enter" || e.key === " ") {
+                                        setActivePerson(person);
+                                      }
+                                    }}
+                                >
+                                  {" "}Read more
+                                </span>
+                              </>
+                          )
+                          : person.bio}
+                    </p>
+                )}
+
+
                 <div className="socials">
                   {person.socials?.xtwitter && (
                     <a href={person.socials.xtwitter} target="_blank" rel="noopener noreferrer">
@@ -143,6 +173,18 @@ const RedTeam: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {activePerson && (
+            <div className="modal-backdrop" onClick={() => setActivePerson(null)}>
+              <div className="modal modal-enter" onClick={(e) => e.stopPropagation()}>
+
+                <h2>{activePerson.name}</h2>
+                {activePerson.tenure && <p className="tenure">{activePerson.tenure}</p>}
+                <p className="bio">{activePerson.bio}</p>
+              </div>
+            </div>
+        )}
+
       </section>
     </div>
   );
