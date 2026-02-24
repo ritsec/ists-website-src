@@ -10,6 +10,8 @@ import MarshallImg from "../../res/rt-images/me_ists_2022_cropped.jpg";
 import HultoImg from "../../res/rt-images/Hulto_reads.jpg";
 import DrewImg from "../../res/rt-images/Young_Drew.jpg";
 import MubixImg from "../../res/rt-images/mubix.png";
+import SeanImg from "../../res/rt-images/bio2.2.jpg";
+import EvanImg from "../../res/rt-images/Riprock.jpeg";
 import PlaceholderImg from "../../res/rt-images/hacker_6017148.png";
 
 const redteamers = [
@@ -55,8 +57,8 @@ const redteamers = [
     {
     name: "Sean",
     tenure: "2023 - Present",
-    bio: "Red Teaming on Windows & doing Malware professionally and at CCDC for 10+ years. I'll tell you anything you want to know - but be careful - I'll talk your ear off. Hacker@microsoft.com",
-    img: PlaceholderImg
+    bio: "Red Teaming on Windows & doing Malware professionally and at CCDC for 10+ years. I'll tell you anything you want to know - but be careful - I'll talk your ear off.",
+    img: SeanImg,
   },
   {
     name: "Joe Abbate",
@@ -83,6 +85,17 @@ const redteamers = [
     socials: {
       linkedin: "https://www.linkedin.com/in/drew-m-young",
     }
+  },
+  {
+  name: "Evan Mikulski (RipRock)",
+  tenure: "2023 - Present",
+  bio: "Riprock is an RIT Alum, former infrastructure lead, done various ISTS things in years past and comes back every year on the red team. Professionally, he works as a Sr Incident Response Analyst over at CrowdStrike. Outside of computering he races cars, ask him about the time he got tboned on track.",
+  img: EvanImg,
+  socials: {
+    linkedin: "https://www.linkedin.com/in/evan-mikulski/",
+    discord: "https://discord.com/users/riprock",
+    github: "https://github.com/Riprock/",
+  }
   }
   ];
 
