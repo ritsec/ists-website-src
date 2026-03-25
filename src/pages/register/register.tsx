@@ -10,13 +10,13 @@ const Register: React.FC = (): React.ReactElement => {
       style={{ backgroundImage: `linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url(${HeroBg})` }}
     >
       <div className="info">
-        <h1>ISTS 2026</h1>
-        <h3>February 27th - March 1st 2026 @ RIT</h3>
+        <h1>ISTS 2027</h1>
+        <h3>Dates TBD @ RIT</h3>
       </div>
       <div>
         <h2>Signups</h2>
-        <a href="https://forms.gle/n25Y2HkSWHP14G3V7" target="_blank" rel="noreferrer">
-          2026 Interest Form
+        <a href="https://forms.gle/etvzcqy9XPahpiNKA" target="_blank" rel="noreferrer">
+          2027 Interest Form
         </a>
       </div>
     </div>
