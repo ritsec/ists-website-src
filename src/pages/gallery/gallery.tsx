@@ -58,8 +58,17 @@ import Img35 from "../../res/gallery/468234960_10160296865981156_502552672125215
 import Img53 from "../../res/gallery/468319294_10160296865096156_1286523205233275433_n.jpg";
 import Img54 from "../../res/gallery/468307406_10160296862921156_4059275945315311288_n.jpg";
 import Img55 from "../../res/gallery/468192433_10160296859266156_1365440475313908446_n.jpg";
+import Img56 from "../../res/gallery/_MG_1090.jpg";
+import Img57 from "../../res/gallery/_MG_1173.jpg";
+import Img58 from "../../res/gallery/_MG_1109.jpg";
+import Img59 from "../../res/gallery/_MG_1160.jpg";
+import Img60 from "../../res/gallery/_MG_1222.jpg";
+import Img61 from "../../res/gallery/_MG_1262.jpg";
+import Img62 from "../../res/gallery/_MG_1366.jpg";
+import Img63 from "../../res/gallery/_MG_1413.jpg";
+import Img64 from "../../res/gallery/ists_wave.jpeg";
 
-const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35, Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47, Img48, Img49, Img50, Img51, Img52, Img53, Img54, Img55];
+const images = [Img1, Img2, Img3, Img4, Img5, Img62, Img6, Img7, Img8, Img9, Img10, Img56, Img11, Img12, Img13, Img14, Img57, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, Img58, Img24, Img25, Img63, Img26, Img27, Img28, Img64, Img29, Img30, Img31, Img32, Img33, Img34, Img35, Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img59, Img46, Img47, Img48, Img49, Img50, Img51, Img52, Img53, Img54, Img55, Img60, Img61];
 
 const Gallery: React.FC = () => {
   const [selected, setSelected] = useState<string | null>(null);
