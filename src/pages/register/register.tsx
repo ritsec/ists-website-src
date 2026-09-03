@@ -11,9 +11,9 @@ const Register: React.FC = (): React.ReactElement => {
     >
       <div className="info">
         <h1>ISTS 2027</h1>
-        <h3>Dates TBD @ RIT</h3>
+        <h3>February 26th to February 28th @ RIT</h3>
       </div>
-      <div>
+      <div className="form">
         <h2>Signups</h2>
         <a href="https://forms.gle/etvzcqy9XPahpiNKA" target="_blank" rel="noreferrer">
           2027 Interest Form
